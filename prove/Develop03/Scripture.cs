@@ -30,7 +30,7 @@ public class Scripture
             foreach (Word scriptureWord in _words)
             {
                 scriptureWord.DisplayWord();
-                Console.Write("");
+                Console.Write(" ");
             }
 
             Console.WriteLine("");

@@ -23,9 +23,16 @@ public class Word
         _display = display;
     }
 
-    public bool DisplayWord()
+    public void DisplayWord()
     {
-        return DisplayWord();
+        if (_display == true)
+        {
+            Console.Write(_word);
+        }
+        else 
+        {
+            Console.Write(_underscoreWord);
+        }
     }
 
 }
