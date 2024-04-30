@@ -26,7 +26,7 @@ class Program
 
         // Creates new instance for Resume
         Resume myResume = new Resume();
-        myResume._name = "Enys Ordaz";
+        myResume._name = "Eve Williams";
         // Adds the information from the Job class to its class
         myResume._jobs.Add(job1);
         myResume._jobs.Add(job2);
