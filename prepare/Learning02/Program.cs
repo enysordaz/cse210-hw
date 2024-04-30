@@ -21,6 +21,13 @@ class Program
         job2._startYear = 2022;
         job2._endYear = 2023;
 
+        // Creates a new Job instance
+        Job job3 = new Job();
+        job3._jobTitle = "Product Designer";
+        job3._company = "Google";
+        job3._startYear = 2023;
+        job3._endYear = 2024;
+
         // Calls function display from Job class for job2
         //job2.Display();
 
@@ -30,6 +37,7 @@ class Program
         // Adds the information from the Job class to its class
         myResume._jobs.Add(job1);
         myResume._jobs.Add(job2);
+        myResume._jobs.Add(job3);
         // Displays the Resume
         myResume.Display();
 
