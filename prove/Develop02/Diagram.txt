@@ -1,0 +1,25 @@
+-------------
+Program - Journal
+-------------
+PromptList: 
+prompts: list of string
+_getPrompt(): string
+-------------
+Entry:
+prompt: string
+date: string
+------------
+
+------------
+SaveToFile:
+fileName: string
+save(): None
+------------
+LoadFromFile:
+fileName: string
+load(): None
+------------
+Display:
+journal: list of Entry
+display(): None
+------------
