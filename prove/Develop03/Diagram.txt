@@ -1,0 +1,21 @@
+
+
+-------------
+Scripture
+HideRandomWords(numberToHide: int): void
+GetDisplayText(): string
+IsCompletelyHidden(): bool
+
+-------------
+
+-------------
+Reference
+
+
+-------------
+
+-------------
+Word
+
+
+--------------
