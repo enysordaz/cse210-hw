@@ -5,17 +5,23 @@ Scripture
 HideRandomWords(numberToHide: int): void
 GetDisplayText(): string
 IsCompletelyHidden(): bool
-
+DisplayScripture(): void
+CheckHiddenStatus(): private bool
+HideWords(): private void
 -------------
 
 -------------
 Reference
-
+Reference(): public
+GetReference(): public string
 
 -------------
 
 -------------
 Word
-
+Word(): public string
+GetDisplay(): public bool
+SetDisplay(): public void
+DisplayWord(): public string
 
 --------------
