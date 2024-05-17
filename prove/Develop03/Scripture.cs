@@ -6,14 +6,14 @@ public class Scripture
     private string _reference;
     private bool _allHidden;
 
-    public Scripture(string reference, string scripureMessage)
+    public Scripture(string reference, string scriptureMessage)
     {
         _reference = reference;
         _allHidden = false;
 
         string[] scriptureWords = scriptureMessage.Split(" ");
 
-        foreach(string scriptureWord in scriptureWords)
+        foreach (string scriptureWord in scriptureWords)
         {
             Word wordForList = new Word(scriptureWord);
             _words.Add(wordForList);
