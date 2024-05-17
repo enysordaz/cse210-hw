@@ -24,7 +24,14 @@ public class Word
 
     public string DisplayWord()
     {
-        return DisplayWord();
+        if (_display == true)
+        {
+            return _word;
+        }
+        else
+        {
+            return _removedWord;
+        }
     }
 
 }
