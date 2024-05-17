@@ -24,12 +24,15 @@ public class Word
 
     public string DisplayWord()
     {
+        
         if (_display == true)
         {
+            Console.Write($"{_word}");
             return _word;
         }
         else
         {
+            Console.Write($"{_removedWord}");
             return _removedWord;
         }
     }
