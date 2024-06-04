@@ -25,18 +25,23 @@ public class SimpleGoal : Goal
 
     public override void RecordEvent()
     {
-        if (_status == false) {
+        if (_status == false) 
+        {
             _status = true;
-        } else {
+        } 
+        else {
             Console.WriteLine("You have already completed this goal. ");
         }
     }
 
     public override bool IsComplete()
     {
-        if (_status == true) {
+        if (_status == true) 
+        {
             return true;
-        } else {
+        } 
+        else 
+        {
             return false;
         }
     }
@@ -45,9 +50,12 @@ public class SimpleGoal : Goal
     {
         string statusSymbol = "";
         bool status = IsComplete();
-        if (status == true) {
+        if (status == true) 
+        {
             statusSymbol = "X";
-        } else {
+        } 
+        else 
+        {
             statusSymbol = " ";
         }
         Console.Write($"[{statusSymbol}] {_name} ({_description}) ");
@@ -57,9 +65,12 @@ public class SimpleGoal : Goal
     {
         bool status = IsComplete();
         int aGP = 0;
-        if (status == true) {
+        if (status == true) 
+        {
             aGP = _goalPoints;
-        } else {
+        } 
+        else 
+        {
             aGP = 0;
         }
         return aGP;
