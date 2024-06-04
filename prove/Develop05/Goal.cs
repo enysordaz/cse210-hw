@@ -36,7 +36,6 @@ public class Goal
 
         _status = false;
     }
-    
 
     public virtual string SaveGoal()
     {
